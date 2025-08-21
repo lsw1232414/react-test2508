@@ -137,7 +137,7 @@ Error generating stack: `+e.message+`
   z-index: 1;
   font-weight: 700;
   border-radius: 6px;
-`;function Pv(){const i=[{id:1,label:"슬라이드1",bg:"#cfe3ff"},{id:2,label:"슬라이드2",bg:"#dff6d0"},{id:3,label:"슬라이드3",bg:"#ffe0e0"}],[r,o]=Gl.useState(0),s=-1200*r;return Gl.useEffect(()=>{const g=setInterval(()=>{o(A=>(A+1)%i.length)},3e3);return()=>clearInterval(g)},[i.length]),j.jsx(kv,{children:j.jsx(Wv,{left:s,children:i.map(g=>j.jsxs(Fv,{style:{background:g.bg},children:[j.jsx("a",{href:"#","aria-label":`슬라이드 ${g.id}`}),j.jsx(Iv,{children:g.label})]},g.id))})})}const tg=rt.section`
+`;function Pv(){const i=[{id:1,label:"슬라이드화면1",bg:"#cfe3ff"},{id:2,label:"슬라이드화면2",bg:"#dff6d0"},{id:3,label:"슬라이드화면3",bg:"#ffe0e0"}],[r,o]=Gl.useState(0),s=-1200*r;return Gl.useEffect(()=>{const g=setInterval(()=>{o(A=>(A+1)%i.length)},3e3);return()=>clearInterval(g)},[i.length]),j.jsx(kv,{children:j.jsx(Wv,{left:s,children:i.map(g=>j.jsxs(Fv,{style:{background:g.bg},children:[j.jsx("a",{href:"#","aria-label":`슬라이드 ${g.id}`}),j.jsx(Iv,{children:g.label})]},g.id))})})}const tg=rt.section`
   width: 1200px;
   margin: 0 auto;
   display: flex;
